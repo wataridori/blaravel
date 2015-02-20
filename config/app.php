@@ -127,10 +127,10 @@ return [
         'Illuminate\Translation\TranslationServiceProvider',
         'Illuminate\Validation\ValidationServiceProvider',
         'Illuminate\View\ViewServiceProvider',
+        'Illuminate\Html\HtmlServiceProvider',
         /*
          * Application Service Providers...
          */
-        'Barryvdh\Debugbar\ServiceProvider',
         'App\Providers\AppServiceProvider',
         'App\Providers\BusServiceProvider',
         'App\Providers\ConfigServiceProvider',
@@ -184,8 +184,8 @@ return [
         'URL' => 'Illuminate\Support\Facades\URL',
         'Validator' => 'Illuminate\Support\Facades\Validator',
         'View' => 'Illuminate\Support\Facades\View',
-        'Debugbar' => 'Barryvdh\Debugbar\Facade',
-
+        'Form'  => 'Illuminate\Html\FormFacade',
+        'HTML'  => 'Illuminate\Html\HtmlFacade',
     ],
 
 ];

@@ -1,8 +1,11 @@
-<html>
-<head>
+@extends('layouts.default')
+@section('css')
     <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-
     <style>
+        html {
+            height: 100%;
+        }
+
         body {
             margin: 0;
             padding: 0;
@@ -33,14 +36,14 @@
         .quote {
             font-size: 24px;
         }
+
     </style>
-</head>
-<body>
+@stop
+@section('main')
 <div class="container">
     <div class="content">
         <div class="title">Laravel 5</div>
         <div class="quote">{{ Inspiring::quote() }}</div>
     </div>
 </div>
-</body>
-</html>
+@stop
