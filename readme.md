@@ -12,17 +12,22 @@ Just A Laravel Project which completely follow the PSR coding standard
 * Laravel 5.0.x
 * All files were refactored to follow the PSR Coding Standard
 * jQuery & Bootstrap included
-* Base Views, Base Controller, Base Model
+* Well-designed View layout
+* HTML and FORM facade (which have been removed from the core installation in Laravel 5) included
 * IDE Helper & Laravel Debugbar included
 * And More ...
 
 ### Install
 
-Just run the following command
+* Run the following command
 
 ```bash
 composer create-project wataridori/blaravel --prefer-dist
 ```
+
+* Chmod `storage` folder to 777
+
+* If you are using an IDE, run `php artisan ide-helper:generate` to generate helper for IDE. View docs [here](https://github.com/barryvdh/laravel-ide-helper) 
 
 ### Link
 

@@ -131,6 +131,7 @@ return [
         /*
          * Application Service Providers...
          */
+        'Barryvdh\Debugbar\ServiceProvider',
         'App\Providers\AppServiceProvider',
         'App\Providers\BusServiceProvider',
         'App\Providers\ConfigServiceProvider',
